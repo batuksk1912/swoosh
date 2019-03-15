@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var bgImg: UIImageView!
+    @IBOutlet weak var logoImg: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        logoImg.frame = CGRect(x: view.frame.size.width/2 - logoImg.frame.size.width/2, y: 50, width: logoImg.frame.size.width, height: logoImg.frame.size.height)
+        bgImg.frame = view.frame
     }
 
 
