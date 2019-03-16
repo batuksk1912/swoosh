@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        logoImg.frame = CGRect(x: view.frame.size.width/2 - logoImg.frame.size.width/2, y: 50, width: logoImg.frame.size.width, height: logoImg.frame.size.height)
-        bgImg.frame = view.frame
+        /*logoImg.frame = CGRect(x: view.frame.size.width/2 - logoImg.frame.size.width/2, y: 50, width: logoImg.frame.size.width, height: logoImg.frame.size.height)
+        bgImg.frame = view.frame*/
     }
 
 
